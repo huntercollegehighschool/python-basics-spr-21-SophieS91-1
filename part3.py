@@ -7,8 +7,17 @@ There are (at least) 6 errors in this code. Fix them so that it runs properly.
 '''
 
 #code starts here
-number1 = input("Enter a number: ")
-number2 = int(input("Enter another number: ")
+number1 = int(input("Enter a number: "))
+number2 = int(input("Enter another number: "))
 
-print "The sum of your numbers is", number1 + Number2
-print(Seven times your second number is, 7(number2))
+print("The sum of your numbers is", number1 + number2)
+print("Seven times your second number is", 7*number2)
+
+
+
+
+#changed num2 input into an integer so it could be added, plus more parenthesis
+#pharenthesis around first print statement
+#fix capitalization in first print statement of number2
+#add quotes to second print statement
+#changed multiplication to use a asterisk instead of parenthesis
